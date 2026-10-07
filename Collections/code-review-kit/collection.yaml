@@ -1,0 +1,10 @@
+name: Code Review Kit
+description: >-
+  Review, fix, change and diagnose existing code with IBM Bob in a repeatable,
+  checkable way. Installs the code-review skill and the rule that activates it.
+author: Dr. Mohamed Gamal
+items:
+  skills:
+    - code-review
+  rules:
+    - rules-code-review
