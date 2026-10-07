@@ -64,10 +64,6 @@ For the marketplace maintainers: copy the three asset folders into the same top-
 
 No index file needs editing: the catalog lists every folder it finds. To show a vote count on the cards, open a tracking issue for each asset and map it in `marketplace.votes.json`, for example `"skill:code-review": <issue number>`.
 
-## Worked example
-
-The [Netcool pilot](https://github.com/Dr-Mohamed-Gamal/bob-netcool-code-review) used this skill on production code: [use case 5](https://github.com/Dr-Mohamed-Gamal/bob-netcool-code-review/tree/main/use-case-5-code-review) runs five prompts from a defect register to a fixed, cleaned, standardized and reviewed copy, and explains each prompt and its result.
-
 ## Requirements
 
 IBM Bob in **Agent** mode with skills enabled, and Python 3.9 or later. The scripts use the Python standard library only.
